@@ -1,14 +1,15 @@
 <script>
 	import { fly } from 'svelte/transition';
+		import { onMount } from 'svelte'
 	let toggled = false
     export let thumb = "null";
     export let title = "null"
     export let desc = "null"
     export let link = "null"
 
-    setTimeout( () => {
+    onMount( () => {
     		toggled = true
-    }, 0)
+    })
 </script>
 
 <style lang="sass">
