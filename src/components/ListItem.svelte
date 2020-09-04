@@ -20,7 +20,7 @@
 
 <div class="shadow w-1/4 main-div">
     <div class="md:flex-shrink-0">
-        <img class="rounded-lg md:w-16 float-left" src={thumb} alt="thumbnail">
+        <img class="rounded-lg w-16 h-16" src={thumb} alt="thumbnail">
     </div>
     <div class="mt-4 md:mt-0 md:ml-6 float-left">
         <a href={link} class="block mt-1 text-lg leading-tight font-semibold text-gray-900 hover:underline title">{title}</a>

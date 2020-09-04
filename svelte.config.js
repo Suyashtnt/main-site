@@ -9,6 +9,5 @@ const defaults = {
 module.exports = {
 	preprocess: [
 		sveltePreprocess({ defaults, postcss }),
-		// You could have more preprocessors, like mdsvex
 	],
 };
