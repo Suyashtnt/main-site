@@ -56,7 +56,7 @@ h2
   text-align: center
 </style>
 
-<h1 class="title1 mt-3"> Welcome to the main site!</h1>
+<h1 class="title1 mt-10"> Welcome to the main site!</h1>
 <h2>Nothing much to see here, here is a list of what i have made tho </h2>
 
 <div class="self-center w-4/5 grid mx-auto">

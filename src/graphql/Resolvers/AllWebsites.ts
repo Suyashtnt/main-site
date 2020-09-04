@@ -1,5 +1,4 @@
 import { Query, Resolver } from "type-graphql";
-import type { RecursiveArray } from "type-graphql/dist/decorators/types";
 
 @Resolver()
 export class AllWebsites {
