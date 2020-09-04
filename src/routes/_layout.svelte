@@ -27,6 +27,9 @@ h2
 	justify-content: space-evenly
 .link
 	font-size: 23px
+	&:hover
+		font-size: 27px
+
 </style>
 
 <svelte:head>
@@ -41,7 +44,7 @@ h2
 	</li>
 
 	<li class="text-center">
-	<a href="https://tnt-man-inc.com" class="title1 mt-1 text-lg leading-tight font-semibold text-gray-900 hover:underline ">TNT Man Inc</a>
+	<a href='/' class="title1 mt-1 text-lg leading-tight font-semibold text-gray-900 hover:underline ">TNT Man Inc</a>
 	<h2 class="text-black-600">Making random things since 2017(I think)</h2>
 	</li>
 
@@ -49,5 +52,5 @@ h2
 		<a href="https://moosik.tnt-man-inc.com" class="text-black-600 hover:underline">Latest Thing</a>
 	</li>
 </ul>
-
+<hr class="mx-auto w-4/5 mt-3">
 <slot />
