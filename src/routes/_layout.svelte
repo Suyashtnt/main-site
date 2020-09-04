@@ -22,16 +22,18 @@
 .title1
 	font-size: 63px
 	text-align: center
+	align-self: center
 h2
 	font-size: 26px
 	text-align: center
+	align-self: center
 .justify-evenly
 	justify-content: space-evenly
 .link
+	transition: transform 200ms
 	font-size: 23px
 	&:hover
-		font-size: 27px
-
+		transform: scale(1.2)
 </style>
 
 <svelte:head>
@@ -42,7 +44,7 @@ h2
 
 <ul class="flex justify-evenly">
 	<li class="mt-12 link">
-		<a href="about" class="text-black-600 mt-1 hover:underline">About</a>
+		<a href="about" class="text-black-600">About</a>
 	</li>
 
 	<li class="text-center">
@@ -51,7 +53,7 @@ h2
 	</li>
 
 	<li class="mt-12 link">
-		<a href="https://moosik.tnt-man-inc.com" class="text-black-600 hover:underline">Latest Thing</a>
+		<a href="https://moosik.tnt-man-inc.com" class="text-black-600">Latest Thing</a>
 	</li>
 </ul>
 <hr class="mx-auto w-4/5 mt-3">
