@@ -2,7 +2,7 @@
   import ListI from '../components/ListItem.svelte'
 
 
-  const list: {thumb: String, title: String, desc: String, link: String; }[] = [
+  const list: {thumb: string, title: string, desc: string, link: string; }[] = [
   {
     thumb: "https://cdn.discordapp.com/avatars/718471280914858015/f4029a25c647c3e1640597b9193e5705.png?size=128",
     title: "Emoji Bot",
