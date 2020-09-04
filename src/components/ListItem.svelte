@@ -1,5 +1,5 @@
 <script>
-	import { fly } from 'svelte/transition';
+	import { fly } from 'svelte/transition'
 		import { onMount } from 'svelte'
 	let toggled = false
     export let thumb = "null";

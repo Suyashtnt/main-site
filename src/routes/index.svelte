@@ -36,8 +36,8 @@
     thumb: "https://raw.githubusercontent.com/Suyashtnt/Super-Svelte-Template/master/docs/svelte-logo.svg"
   },
   {
-      title: "Emoji mover",
-      desc: "Takes the emojis from one server and copies them to your server. Also my first deno project",
+      title: "Emoji mover(An extension to emoji bot)",
+      desc: "Takes the emojis from one discord server and copies them to your server. Also my first deno project",
       link: "https://github.com/Suyashtnt/emoji-mover",
       thumb: "https://deno.land/logo.svg"
   }
