@@ -8,7 +8,7 @@ h1
 
 <script>
     import { onMount } from 'svelte'
-    let toggled;
+    let toggled = false;
     onMount( () => {
             toggled = true
     })

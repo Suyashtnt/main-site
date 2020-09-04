@@ -42,7 +42,7 @@
       thumb: "https://deno.land/logo.svg"
   }
   ]
-		let toggled;
+		let toggled = false;
 		setTimeout( () => {
 
 						toggled = true
