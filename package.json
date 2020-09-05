@@ -1,21 +1,7 @@
 {
-	"name": "sapper-firebase-typescript-graphql-tailwindcss-actions-template",
-	"description": "A template that includes Sapper for Svelte, Firebase functions and hosting, TypeScript and TypeGraphQL, Tailwind CSS, ESLint and EditorConfig, and automatic building and deployment with GitHub Actions",
-	"keywords": [
-		"sapper",
-		"firebase",
-		"typegraphql",
-		"typescript",
-		"eslint",
-		"postcss",
-		"purgecss",
-		"github-actions",
-		"svelte",
-		"cssnano",
-		"tailwindcss",
-		"apollo-server",
-		"graphql"
-	],
+	"name": "tnt-man-inc",
+	"description": "Main website for tnt-man-inc.com",
+	"keywords": [],
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/babichjacob/sapper-firebase-typescript-graphql-tailwindcss-actions-template.git"
@@ -108,6 +94,6 @@
 		"utf-8-validate": "^5.0.2"
 	},
 	"engines": {
-		"node": "10"
+		"node": "12"
 	}
 }
