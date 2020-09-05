@@ -1,6 +1,6 @@
 <script context="module">
-		export function preload({ params: any, query: any }) {
-				return this.fetch("sitemap.xml");
+		export function preload({}) {
+				return fetch("sitemap.xml");
 		}
 </script>
 
