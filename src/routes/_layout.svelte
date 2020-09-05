@@ -2,7 +2,7 @@
 	export const preload = () => {};
 </script>
 
-<script>
+<script lang="ts">
 	import { stores } from "@sapper/app"
 	/*
 	 You may not want to use `segment`, but it is passed for the time being and will

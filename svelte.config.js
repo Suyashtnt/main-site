@@ -2,7 +2,6 @@ const sveltePreprocess = require("svelte-preprocess");
 const postcss = require("./postcss.config");
 
 const defaults = {
-	script: "typescript",
 	style: "postcss",
 };
 
