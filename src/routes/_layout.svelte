@@ -34,6 +34,7 @@ h2
 	font-size: 23px
 	&:hover
 		transform: scale(1.2)
+
 </style>
 
 <svelte:head>
@@ -58,3 +59,4 @@ h2
 </ul>
 <hr class="mx-auto w-4/5 mt-3">
 <slot />
+<p class="mt-12">Made with ❤ and Svelte</p>

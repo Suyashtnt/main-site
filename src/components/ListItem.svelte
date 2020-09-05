@@ -15,7 +15,7 @@
 <style lang="sass">
 .main-div
   background: #FBFBFB
-  padding: 10px
+  padding: 10px 10px 10px 10px
   overflow: auto
   margin-right: 12px
   min-width: 21em
@@ -37,13 +37,15 @@
 </style>
 
 {#if toggled}
-<div transition:fly="{{ y: 200, duration: 2000 }}" class="shadow hover:shadow-xl transition duration-500 ease-in-out w-1/4 main-div rounded-lg">
-    <div class="md:flex-shrink-0">
-        <img class="rounded-lg w-16 h-16 float-top mx-auto" src={thumb} alt="thumbnail">
+<a href={link}>
+    <div transition:fly="{{ y: 200, duration: 2000 }}" class="shadow hover:shadow-xl transition duration-500 ease-in-out w-1/4 main-div rounded-lg">
+        <div class="md:flex-shrink-0">
+            <img class="rounded-lg w-16 h-16 float-top mx-auto" src={thumb} alt="thumbnail">
+        </div>
+        <div class="mt-4 float-left">
+            <p class="mx-auto block mt-1 text-lg font-semibold text-gray-900e title">{title}</p>
+            <p class="mx-auto mt-2 text-gray-600 desc">{desc}</p>
+        </div>
     </div>
-    <div class="mt-4 float-left">
-        <a href={link} class="mx-auto block mt-1 text-lg font-semibold text-gray-900 hover:underline title">{title}</a>
-        <p class="mx-auto mt-2 text-gray-600 desc">{desc}</p>
-    </div>
-</div>
+</a>
 {/if}
