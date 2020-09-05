@@ -1,4 +1,4 @@
-<script context="module" lang="js">
+<script context="module">
 	// @ts-ignore
 		export function preload() {
 				return this.fetch("sitemap.xml");
