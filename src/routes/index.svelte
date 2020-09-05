@@ -68,6 +68,12 @@
 	.title1
 	  font-size: 38px
 	  text-align: center
+	  padding: 10px
+	  background: #00acee
+	  box-shadow: 0 1px 3px 0
+	  width: 100%
+	  &:hover
+	  	text-shadow: 0 2px 5px 0
 	h2
 	  font-size: 17px
 	  text-align: center
@@ -82,12 +88,12 @@
 </style>
 
 {#if toggled}
-	<h1 transition:fade="{{duration: 500}}" class="title1 mt-10"> Welcome to the main site!</h1>
-	<h2 transition:fade="{{duration: 500}}">Nothing much to see here, here is a list of what i have made tho </h2>
+	<h1 transition:fade="{{duration: 500}}" class="title1 mt-10 transition duration-500"> Welcome to the main site!</h1>
+	<h2 transition:fade="{{duration: 500}}" class="mt-6">Nothing much to see here, here is a list of what i have made tho </h2>
 
 	<div class="self-center w-4/5 grid mx-auto">
 	{#each list as item }
-		<ListI  {...item} />
+		<ListI {...item} />
 	{/each}
 	</div>
 {/if}

@@ -55,7 +55,8 @@ h2
 <ul class="flex justify-evenly" id="Nav">
 
 	<li class="text-left">
-		<a href='/' class="title1 mt-1 text-lg leading-tight font-semibold text-gray-900 hover:underline ">TNT Man Inc</a>
+		<img src="thing.svg" class="float-left">
+		<a href='/' class="title1 mt-1 text-lg leading-tight font-semibold text-gray-900 hover:underline float-right">TNT Man Inc</a>
 		<h2 class="text-black-600">Making random things since 2017(I think)</h2>
 	</li>
 
