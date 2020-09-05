@@ -1,10 +1,9 @@
 {
-	"short_name": "Opinionated Sapper project base",
-	"name": "An extremely opinionated Sapper project base",
-	"description": "A template that includes Svelte with Sapper, Firebase functions and hosting, TypeScript and TypeGraphQL, Tailwind CSS, ESLint, and automatic building and deployment with GitHub Actions",
+	"short_name": "TNT Man Inc",
+	"name": "TNT MAN Inc. Making random things since 2017",
+	"description": ":yeef",
 	"categories": [
-		"personalization",
-		"productivity"
+		"randomness"
 	],
 	"lang": "en-US",
 	"dir": "ltr",

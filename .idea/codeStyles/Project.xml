@@ -15,6 +15,11 @@
         <option name="SMART_TABS" value="true" />
       </indentOptions>
     </codeStyleSettings>
+    <codeStyleSettings language="JSON">
+      <indentOptions>
+        <option name="USE_TAB_CHARACTER" value="true" />
+      </indentOptions>
+    </codeStyleSettings>
     <codeStyleSettings language="JavaScript">
       <option name="RIGHT_MARGIN" value="100" />
       <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
