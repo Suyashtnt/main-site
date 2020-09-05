@@ -1,8 +1,7 @@
 <script context="module">
-	// @ts-ignore
-		export function preload() {
-				return this.fetch("sitemap.xml");
-		}
+	export function preload() {
+			return this.fetch("sitemap.xml");
+	}
 </script>
 
 <script lang="ts">
