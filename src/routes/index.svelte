@@ -1,3 +1,9 @@
+<script context="module">
+		export function preload({ params, query }) {
+				return this.fetch("sitemap.xml");
+		}
+</script>
+
 <script lang="ts">
     import { fade } from 'svelte/transition'
     import ListI from '../components/ListItem.svelte'
