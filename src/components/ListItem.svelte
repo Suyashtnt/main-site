@@ -45,7 +45,7 @@
 
 {#if toggled}
 <a href={link}>
-    <div transition:fly="{{ y: 200, duration: 2000 }}" class="shadow hover:shadow-xl transition duration-500 ease-in-out w-1/4 main-div rounded-lg">
+    <div transition:fly="{{ y: 200, duration: 500 }}" class="shadow hover:shadow-xl transition duration-500 ease-in-out w-1/4 main-div rounded-lg">
         <div class="md:flex-shrink-0">
             <img class="rounded-lg w-16 h-16 float-top mx-auto" src={thumb} alt="thumbnail">
         </div>

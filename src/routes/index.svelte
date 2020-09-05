@@ -1,10 +1,9 @@
 <script lang="ts">
     import { fade } from 'svelte/transition'
+    import ListI from '../components/ListItem.svelte'
+		import { onMount } from "svelte";
 
-  import ListI from '../components/ListItem.svelte'
-
-
-  const list: {thumb: string, title: string, desc: string, link: string, colour: string; }[] = [
+    const list: {thumb: string, title: string, desc: string, link: string, colour: string; }[] = [
   {
     thumb: "https://cdn.discordapp.com/avatars/718471280914858015/f4029a25c647c3e1640597b9193e5705.png?size=128",
     title: "Emoji Bot",
@@ -49,40 +48,40 @@
   }
   ]
 	let toggled = false;
-	setTimeout( () => {
-			toggled = true
-	}, 0)
+	onMount( () => {
+			setTimeout(() => toggled=true, 500)
+	})
 </script>
 
 <style lang="sass">
-.grid
-  display: grid
-  grid-template-columns: 1fr 1fr 1fr
-  grid-gap: 10px
-  justify-items: center
-.title1
-  font-size: 38px
-  text-align: center
-h2
-  font-size: 17px
-  text-align: center
-
-
-@media screen and (max-width: 980px)
 	.grid
-		display: grid
-		grid-template-columns: 1fr
-		grid-gap: 5px
-		justify-items: center
+	  display: grid
+	  grid-template-columns: 1fr 1fr 1fr
+	  grid-gap: 10px
+	  justify-items: center
+	.title1
+	  font-size: 38px
+	  text-align: center
+	h2
+	  font-size: 17px
+	  text-align: center
+
+
+	@media screen and (max-width: 980px)
+		.grid
+			display: grid
+			grid-template-columns: 1fr
+			grid-gap: 5px
+			justify-items: center
 </style>
 
 {#if toggled}
-<h1 transition:fade="{{duration: 500}}" class="title1 mt-10"> Welcome to the main site!</h1>
-<h2 transition:fade="{{duration: 500}}">Nothing much to see here, here is a list of what i have made tho </h2>
-{/if}
+	<h1 transition:fade="{{duration: 500}}" class="title1 mt-10"> Welcome to the main site!</h1>
+	<h2 transition:fade="{{duration: 500}}">Nothing much to see here, here is a list of what i have made tho </h2>
 
-<div class="self-center w-4/5 grid mx-auto">
-{#each list as item }
-<ListI  {...item} />
-{/each}
-</div>
+	<div class="self-center w-4/5 grid mx-auto">
+	{#each list as item }
+		<ListI  {...item} />
+	{/each}
+	</div>
+{/if}
