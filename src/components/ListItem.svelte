@@ -6,7 +6,7 @@
     export let title = "null"
     export let desc = "null"
     export let link = "null"
-
+    export let colour = "white"
     onMount( () => {
     		toggled = true
     })
@@ -14,7 +14,7 @@
 
 <style lang="sass">
 .main-div
-  background: #FBFBFB
+  background: white
   padding: 10px 10px 10px 10px
   overflow: auto
   margin-right: 12px
@@ -26,9 +26,16 @@
   justify-content: center
   border-top: 6px solid #00acee
   min-height: 255px
+  &:hover
+         div
+            p.title
+              font-size: 32px
+              text-align: center
+              color: var(--colour, black)
 .title
-  font-size: 32px
-  text-align: center
+    font-size: 32px
+    text-align: center
+    color: black
 .desc
   font-size: 23px
   text-align: center
@@ -43,7 +50,7 @@
             <img class="rounded-lg w-16 h-16 float-top mx-auto" src={thumb} alt="thumbnail">
         </div>
         <div class="mt-4 float-left">
-            <p class="mx-auto block mt-1 text-lg font-semibold text-gray-900e title">{title}</p>
+            <p class="transition duration-500 ease-in-out mx-auto block mt-1 text-lg font-semibold text-gray-900e title" style="--colour: {colour}">{title}</p>
             <p class="mx-auto mt-2 text-gray-600 desc">{desc}</p>
         </div>
     </div>
