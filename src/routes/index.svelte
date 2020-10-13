@@ -51,6 +51,20 @@
     link: "https://github.com/Suyashtnt/emoji-mover",
     thumb: "https://deno.land/logo.svg",
 	  colour: "#18c921"
+  },
+  {
+	  title: "popcorn API",
+	  desc: "popcorn time 🍿",
+	  link: "https://popcorn.tnt-man-inc.com",
+	  thumb: "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/microsoft/209/popcorn_1f37f.png",
+	  colour: "#f7feb5"
+  },
+	    {
+	  title: "popcorn Frontend",
+	  desc: "popcorn time 🍿. Now in a GUI",
+	  link: "https://popcorn-frontent.tnt-man-inc.com",
+	  thumb: "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/microsoft/209/popcorn_1f37f.png",
+	  colour: "#f9eb71"
   }
   ]
 	let toggled = false;
